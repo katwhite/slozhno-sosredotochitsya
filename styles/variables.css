@@ -6,4 +6,5 @@
   --accent-text-color: #000028;
   --logo-text-color: #db00ff;
   --page-padding: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
+  --background-image: url(../images/cover-image-dark.png);
 }

@@ -8,7 +8,7 @@
   font-size: 18px;
   /* line-height: 130%; */
   padding-inline: var(--page-padding);
-  background-image: url(../images/cover-image-dark.png);
+  background-image: var(--background-image);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
