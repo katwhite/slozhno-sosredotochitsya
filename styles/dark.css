@@ -10,7 +10,10 @@
   --accent-color: #ff0070;
   --accent-text-color: #000028;
   --logo-text-color: #db00ff;
-  --background-image: url(../images/cover-image-dark.png);
+  --background-image: url(./images/cover-image-dark.png);
+  --header-menu-button-color: var(--accent-color);
+  --header-menu-button-color-rgb: var(--accent-color-rgb);
+  --decoration-visibility: visible;
 
   /* .header__theme-menu-button {
     color: var(--accent-color);

@@ -26,8 +26,8 @@
   content: '';
   inline-size: 25px;
   block-size: 25px;
-  border-block-start: 1px solid var(--accent-color);
-  border-inline-end: 1px solid var(--accent-color);
+  border-block-start: 1px solid var(--header-menu-button-color);
+  border-inline-end: 1px solid var(--header-menu-button-color);
   position: absolute;
   /* background-color: azure; */
   inset-inline-end: 1px;
@@ -37,8 +37,8 @@
   content: '';
   inline-size: 25px;
   block-size: 25px;
-  border-block-end: 1px solid var(--accent-color);
-  border-inline-start: 1px solid var(--accent-color);
+  border-block-end: 1px solid var(--header-menu-button-color);
+  border-inline-start: 1px solid var(--header-menu-button-color);
   position: absolute;
   /* background-color: azure; */
   inset-block-end: 10px;
@@ -49,13 +49,15 @@
 }
 
 .decoration {
-  position: relative;
+  position: absolute;
+  visibility: var(--decoration-visibility);
+  inset-inline-end: 1px;
 }
 
 .decoration::before {
   content: 'REC';
   position: absolute;
-  color: var(--accent-color);
+  color: var(--header-menu-button-color);
   font-weight: 400;
   font-family: inherit;
   inset-inline-end: 28px;
@@ -68,10 +70,10 @@
   block-size: 9px;
   border-radius: 50%;
   position: absolute;
-  background-color: var(--accent-color);
+  background-color: var(--header-menu-button-color);
   inset-inline-end: 9px;
   inset-block-start: 8px;
-  box-shadow: 0 0 4px 2px var(--accent-color);
+  box-shadow: 0 0 4px 2px var(--header-menu-button-color);
 }
 
 @media (width >= 768px) {
@@ -130,14 +132,14 @@
   line-height: 1;
   text-align: center;
   text-transform: lowercase;
-  color: var(--accent-color);
+  color: var(--header-menu-button-color);
   inline-size: 100%;
   border: none;
   padding: 2px 13px 4px;
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid rgba(var(--accent-color-rgb), 0.4);
+  border: 1px solid rgba(var(--header-menu-button-color-rgb), 0.4);
 }
 
 .header__theme-menu-button:focus {
@@ -149,7 +151,7 @@
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--accent-color);
+  border: 1px solid var(--header-menu-button-color);
 }
 
 .logo-heading {

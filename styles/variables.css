@@ -1,4 +1,4 @@
-.page {
+:root {
   --bg-color: #000028;
   --text-color: #f1b2ce;
   --accent-color: #ff0070;
@@ -6,5 +6,8 @@
   --accent-text-color: #000028;
   --logo-text-color: #db00ff;
   --page-padding: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
-  --background-image: url(../images/cover-image-dark.png);
+  --background-image: url(./images/cover-image-dark.png);
+  --header-menu-button-color: var(--accent-color);
+  --header-menu-button-color-rgb: var(--accent-color-rgb);
+  --decoration-visibility: visible;
 }
