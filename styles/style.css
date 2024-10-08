@@ -249,7 +249,7 @@
 .section_content {
   display: flex;
   flex-direction: column;
-  gap: 21px;
+  gap: 20px;
 }
 
 @media (width >= 1024px) {
