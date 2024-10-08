@@ -342,7 +342,7 @@
   .gallery {
     /* ширина столбцов между 230 и 315 пикселей */
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 21px;
   }
 
   .gallery__image {
