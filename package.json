@@ -1,0 +1,31 @@
+{
+  "name": "slozhno-sosredotochitsya",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "browser-sync": "^3.0.3",
+    "del": "^6.0.0",
+    "gulp": "^5.0.0",
+    "gulp-concat-css": "^1.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^10.0.0",
+    "postcss": "^8.4.47",
+    "prettier": "^3.3.3",
+    "stylelint": "^16.9.0"
+  },
+  "scripts": {
+    "test": "test",
+    "check": "prettier --check './**/*.{html,css,js}'",
+    "format": "prettier --write './**/*.{html,css,js}'",
+    "lint": "stylelint './**/*.css'",
+    "lintfix": "stylelint './**/*.css' --fix",
+    "checkAll": "npm run check && npm run lint",
+    "fixAll": "npm run format && npm run lintfix",
+    "build": "gulp build",
+    "dev": "gulp",
+    "fixAndBuild": "npm run fixAll && npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
