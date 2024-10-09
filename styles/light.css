@@ -10,6 +10,7 @@
   --text-color-rgb: 50, 49, 45;
   --accent-color: #ff8dcb;
   --accent-color-rgb: 255, 0, 112;
+  --accent-text-color: #353430;
   --logo-text-color: #ffc2e6;
   --background-image: url(../images/cover-image-light.png);
   --header-menu-button-color: var(--text-color);
@@ -24,6 +25,7 @@
     --text-color-rgb: 50, 49, 45;
     --accent-color: #ff8dcb;
     --accent-color-rgb: 255, 0, 112;
+    --accent-text-color: #353430;
     --logo-text-color: #ffc2e6;
     --background-image: url(../images/cover-image-light.png);
     --header-menu-button-color: var(--text-color);

@@ -6,9 +6,16 @@
   --accent-color-rgb: 255, 0, 112;
   --accent-text-color: #000028;
   --logo-text-color: #db00ff;
-  --page-padding: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
   --background-image: url(../images/cover-image-dark.png);
   --header-menu-button-color: var(--accent-color);
   --header-menu-button-color-rgb: var(--accent-color-rgb);
   --decoration-visibility: visible;
+  --page-padding: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
+  --base-indent: 10px;
+}
+
+@media (width >= 768px) {
+  :root {
+    --base-indent: 20px;
+  }
 }

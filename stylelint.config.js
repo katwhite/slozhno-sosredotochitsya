@@ -20,7 +20,7 @@ module.exports = {
     'declaration-no-important': true,
     'declaration-block-single-line-max-declarations': 1,
     'no-unknown-animations': true,
-    'selector-type-case': ['lower', { ignoreTypes: ['DOCTYPE'] }],
+    'selector-type-case': ['lower', { ignoreTypes: /DOCTYPE/ }],
     'rule-empty-line-before': 'always',
     'at-rule-empty-line-before': 'always',
     'selector-class-pattern': null,
